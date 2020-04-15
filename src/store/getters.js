@@ -1,3 +1,9 @@
+const MIN_AMOUNT = 10000;
+const MAX_AMOUNT = 100000;
+const MIN_DURATION = 1;
+const MAX_DURATION = 5;
+
+
 export default {
   isFormSafe: (_, {
     durationInvalid,
@@ -5,11 +11,11 @@ export default {
   }) => durationInvalid || loanAmountInvalid,
   durationInvalid: ({
     duration
-  }) => !(duration >= 1 && duration <= 5) || false,
+  }) => !(duration >= MIN_DURATION && duration <= MAX_DURATION) || false,
   loanAmountInvalid: ({
     loanAmount
   }) => {
     const amt = parseInt(loanAmount);
-    return !(amt >= 10000 && amt <= 100000) || false;
+    return !(amt >= MIN_AMOUNT && amt <= MAX_AMOUNT) || false;
   },
 };
