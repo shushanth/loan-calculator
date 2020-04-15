@@ -2,7 +2,6 @@
 Loan widget calculator based on loan amount and duration.
 
 ## Project setup 
-**(Compiles and hot-reloads for development)**
 ```
 npm install.
 ```
@@ -13,6 +12,8 @@ npm run build.
 ```
 
 ### Usage
+**(Compiles and hot-reloads for development)**
+
 ```
 npm run start, (calculator widget will be opened over http://localhost:4000/)
 ```
