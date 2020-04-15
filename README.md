@@ -18,11 +18,14 @@ npm run build.
 npm run start, (calculator widget will be opened over http://localhost:4000/)
 ```
 
+
 ### Running the tests
+
+```
 npm run test.
 npm run test:watch (to watch).
 ```
-```
+
 #### Completed Tasks
 
 - implemented loan calculator widget with vue and vuex (state container).
