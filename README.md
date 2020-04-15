@@ -28,6 +28,8 @@ npm run start, (calculator widget will be opened over http://localhost:4000/)
 
 - Using the default rate of interest (10%) to calculate the monthly installment.
 - using the mock server with only success case scenarios.
+- used default state on form load.
+- used both input fields as input html elements (duration could have been select element).
 
 #### Improvements
 - Typescript support.

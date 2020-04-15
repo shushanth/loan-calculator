@@ -1,0 +1,9 @@
+@mixin styles-flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin styles-flex--align($hz-center: initial, $vl-center: initial) {
+    align-items: $vl-center;
+    justify-content: $hz-center;
+}
