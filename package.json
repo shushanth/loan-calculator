@@ -37,7 +37,7 @@
     "jest-serializer-vue": "^2.0.2",
     "jsdom": "^16.2.2",
     "jsdom-global": "^3.0.2",
-    "mocha": "^7.1.1",
+    "mocha": "^10.2.0",
     "mochapack": "^1.1.15",
     "node-sass": "^4.13.1",
     "prettier": "^2.0.4",
